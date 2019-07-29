@@ -1,7 +1,7 @@
 
 function Title({title}) {
   return (
-    <div style={{ fontSize: 50, backgrounColor: 'blue', }}>{title}</div>
+    <div style={{ fontSize: 50, backgroundColor: 'blue', }}>{title}</div>
   );
 }
 
