@@ -9,7 +9,7 @@ app.use(cors());
 
 // app.get('/', (req, res) => res.send('Server Online'));
 
-app.use('/', express.static('react-cdn'));
+app.use('/', express.static('lab/07-lifecycle'));
 
 const port = process.env.PORT || 3000;
 
